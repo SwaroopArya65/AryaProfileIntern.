@@ -1,0 +1,263 @@
+body{
+    margin: auto;
+    padding: 0px;
+    box-sizing: border-box;
+    background: linear-gradient(to right, #fdfcfb 0%, #e3d2c4 100%);
+    
+}
+
+#Header{
+    margin: 2px;
+    padding: 2px;
+    height: 350px;
+    background: linear-gradient(to right, #dbd5ed 0%, #f3e7ea 100%);
+    border-bottom-left-radius: 72px;
+    border-bottom-right-radius: 72px;
+    box-shadow: 1px 6px;
+}
+
+#Header > h1{
+    display: inline-block;
+    position: absolute;
+    margin: 1%;
+    padding: 2px;
+    color: blue;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* Account Login */
+
+#Header > .login-details{
+    display: inline-flex;
+    align-items: center;
+    position: relative;
+    margin-top: 1%;
+    margin-right: 2%;
+    float: right;
+    /* padding-left: 1000px; */
+}
+
+#Header > .login-details > img{
+    padding-left: 15px;
+    width: 100%;
+    height: 20px;
+    cursor: pointer;
+}
+
+/* Title */
+
+#Header > .title{
+    display: block;
+    margin-left: 17%;
+    padding-top: 128px;
+}
+
+#Header > .title h1{
+    width: 100%;
+    height: auto;
+    font-size: 39px;
+    font-family: 'Courier New', Courier, monospace;
+    color: blue;
+}
+
+#Header > .title > .hire{
+    background: #e78a3d;
+    border-radius: 10px;
+    padding: 8px;
+    color: #ffff;
+    font-size: large;
+    font-weight: 500;
+    font-family: 'Courier New', Courier, monospace;
+    cursor: pointer;
+}
+
+#Header > .title > .cv{
+    background: #e78a3d;
+    border-radius: 10px;
+    padding: 8px;
+    margin-left: 7px;
+    color: #ffff;
+    font-size: large;
+    font-weight: 500;
+    font-family: 'Courier New', Courier, monospace;
+    cursor: pointer;
+}
+
+/* Menu section */
+
+#Header > .menu{
+    margin: 371px;
+    position: absolute;
+}
+
+#Header > .menu > .menu-item{
+    display: flex;
+    padding: 22px;
+    margin-top: -348px;
+    background: linear-gradient(to right, #FF7082 0%, #C0E9FF 100%);
+    border-radius: 1px solid red;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.menu > .menu-item{
+    text-decoration: none;
+}
+
+.menu > .menu-item > .sub-item{
+    font-size: 20px;
+    margin: 5px;
+    padding: 10px;
+    list-style: none;
+}
+
+.menu > .menu-item > .sub-item > a{
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.menu > .menu-item > .sub-item > a:hover{
+    background-color: aquamarine;
+    text-decoration: underline;
+    color: #e78a3d;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+/* About Section */
+
+#About{
+    margin-top: 80px;
+    padding: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #e78a3d;
+}
+#about-me{
+    display: flex;
+    background: linear-gradient(to right, #FF7082 0%, #C0E9FF 100%);
+    border-radius: 10px;
+    margin: 20px;
+    padding: 20px;
+    height: auto;
+}
+
+#about-me > .description{
+    color: #ffff;
+    font-size: medium;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#about-me > .description > .hire{
+    background: #e78a3d;
+    border-radius: 10px;
+    padding: 8px;
+    color: #ffff;
+    font-size: large;
+    font-weight: 500;
+    font-family: 'Courier New', Courier, monospace;
+    cursor: pointer;
+}
+
+#about-me > .description > .cv{
+    background: #e78a3d;
+    border-radius: 10px;
+    padding: 8px;
+    margin-left: 7px;
+    color: #ffff;
+    font-size: large;
+    font-weight: 500;
+    font-family: 'Courier New', Courier, monospace;
+    cursor: pointer;
+}
+
+#about-me > .profile-img > img{
+    height: 203px;
+    width: 203px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+/* TechSkill Section */
+
+#about-me > .skill-item{
+    height: 98px;
+    padding-left: 26px;
+}
+
+#about-me > .skill-item > .skill-itemsql img{
+    height: 96px;
+}
+
+/* Footer Section  */
+
+#Fowith-Icon{
+    border-radius: 10px;
+    background-color: #f3465d;
+    margin: 17px;
+}
+
+#Fowith-Icon > .footer-details{
+    padding: 20px;
+    display: flex;
+    margin: 9px;
+    margin-top: 100px;
+}
+
+#Fowith-Icon > .footer-details > .location iframe{
+    border-radius: 12px;
+    height: 209px;
+    width: 500px;
+}
+
+#Fowith-Icon > .footer-details > .contact{
+    margin-top: -35px;
+    margin-left: 150px;
+    padding: 30px;
+}
+
+#Fowith-Icon > .footer-details > .contact input{
+    width: 535px;
+    border-radius: 10px;
+    height: 37px;
+    outline: none;
+    border: none;
+    margin: 10px;
+}
+
+#Fowith-Icon > .footer-details > .contact > .action button{
+    background: #e78a3d;
+    border-radius: 10px;
+    margin-right: 10px;
+    padding: 8px;
+    color: #ffff;
+    font-size: large;
+    font-weight: 500;
+    float: right;
+    border: none;
+    font-family: 'Courier New', Courier, monospace;
+    cursor: pointer;
+}
+
+#Fowith-Icon > h2{
+    padding-left: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+}
+
+#Fowith-Icon > #social{
+    width: 300px;
+    display: flex;
+    margin-left: 71%;
+    margin-top: -50px;
+    padding: 7px;
+    height: 42px;
+    cursor: pointer;
+}
